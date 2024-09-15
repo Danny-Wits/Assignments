@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{077718A5-CB70-4C9E-9892-46F35D7909BC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Assignments.Module1</StartupObject>
+    <StartupObject>Assignments.q1</StartupObject>
     <RootNamespace>Assignments</RootNamespace>
     <AssemblyName>Assignments</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -16,7 +16,7 @@
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <DefineDebug>true</DefineDebug>
@@ -69,7 +69,16 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="q1.vb" />
+    <Compile Include="q3.vb" />
+    <Compile Include="q7.vb" />
+    <Compile Include="q10.vb" />
+    <Compile Include="q9.vb" />
+    <Compile Include="q8.vb" />
+    <Compile Include="q6.vb" />
+    <Compile Include="q5.vb" />
+    <Compile Include="q4.vb" />
+    <Compile Include="q2.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
