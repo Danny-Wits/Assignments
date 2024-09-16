@@ -1,4 +1,5 @@
-﻿Module Program
+﻿'Program: Show the difference between local and global variables
+Module Program
 Dim globalVar As Integer = 100 ' Global variable
 Sub Main()
 Dim localVar As Integer = 50 ' Local variable

@@ -1,4 +1,5 @@
-﻿Module Program
+﻿'Program: Demonstrate arithmetic, relational, and logical operators.
+Module Program
 Sub Main()
  ' Read input and convert to integer
 Dim a As Integer = Convert.ToInt32(Console.ReadLine())

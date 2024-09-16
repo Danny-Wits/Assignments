@@ -1,4 +1,5 @@
-﻿Module Program
+﻿'Program: Define and use constants in a simple arithmetic calculation
+Module Program
 Const PI As Double = 3.14159
 Sub Main()
 Dim radius As Double = Console.ReadLine()

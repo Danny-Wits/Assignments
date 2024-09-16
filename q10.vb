@@ -1,4 +1,5 @@
-﻿Module Program
+﻿'Program: Use variables and expressions to calculate the sum of two numbers.
+Module Program
 Sub Main()
 Dim num1 As Integer = Convert.toInt32(Console.ReadLine())
 Dim num2 As Integer = Convert.toInt32(Console.ReadLine())

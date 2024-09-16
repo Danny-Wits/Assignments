@@ -1,4 +1,5 @@
-﻿Module Program
+﻿'Program: Unbox an object type back to a value type.
+Module Program
 Sub Main()
 Dim obj As Object = 60
 Dim num As Integer = CType(obj, Integer) ' Unboxing

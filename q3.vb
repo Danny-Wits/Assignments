@@ -1,4 +1,5 @@
-﻿Module Program
+﻿'Program: Use different data types in VB.NET and display their values.
+Module Program
 Sub Main()
 Dim integerNum As Integer = 100
 Dim doubleNum As Double = 99.99

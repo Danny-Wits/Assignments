@@ -1,4 +1,5 @@
-﻿Module q1
+﻿'Program: Demonstrate declaring and using variables of different types.
+Module q1
 
     Sub Main()
         Dim num As Integer = 10

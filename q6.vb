@@ -1,4 +1,5 @@
-﻿Module Program
+﻿'Program: Show implicit and explicit type conversion.
+Module Program
 Sub Main()
 Dim num As Integer = 10
 Dim doubleNum As Double
